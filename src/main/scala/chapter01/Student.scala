@@ -5,7 +5,7 @@ package chapter01
   - class name and object name must match with each other
   - class and object must be defined in the same file
  */
-class Student(name: String, age: Int) {
+class Student(name: String, var age: Int) {
   def printInfo(): Unit = {
     println(name + ", " + age + ", " + Student.school)
   }
